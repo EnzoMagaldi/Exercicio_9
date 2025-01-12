@@ -25,7 +25,7 @@ public class Editora {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return nome + "(" + site + ")";
     }
 
