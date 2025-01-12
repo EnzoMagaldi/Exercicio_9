@@ -1,12 +1,12 @@
-public class Revista extends Publicacao{
+public class Revista extends Publicacao {
     private String periodo;
 
-    public Revista(String nome,String assunto,String edicao, Editora editora, String periodo){
+    public Revista(String nome,String assunto,String edicao, Editora editora, String periodo) {
         super(nome,assunto,edicao,editora);
         this.periodo = periodo;
     }
 
-    public void getInfo(){
+    public void getInfo() {
         System.out.println("------------------\n");
         System.out.println("Tipo: Revista");
         getPubli();
