@@ -1,4 +1,4 @@
-public class Livro extends Publicacao{
+public class Livro extends Publicacao {
     private String [] autores;
 
     public Livro (String nome, String assunto, String edicao, Editora editora, String[] autores){
@@ -6,7 +6,7 @@ public class Livro extends Publicacao{
         this.autores = autores;
     }
 
-    public void getInfo(){
+    public void getInfo() {
         System.out.println("------------------\n");
         System.out.println("Tipo: Livro\n");
         getPubli();
@@ -15,7 +15,7 @@ public class Livro extends Publicacao{
             System.out.println(autor);
         }
     }
-    public String[] getAutores(){
+    public String[] getAutores() {
         return autores;
     }
 
