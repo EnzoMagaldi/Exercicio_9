@@ -3,7 +3,7 @@
 Trabalho que implementa o *exercício 9* da segunda implementação pedida na disciplina **Paradigmas de Programação**
 
 ## Código base da main:
-``` 
+```java 
   public class Principal {
    public static void main(String[] args) {
      Editora oreilly = new Editora("O'Reilly", "http://oreilly.com/");
@@ -14,4 +14,4 @@ Trabalho que implementa o *exercício 9* da segunda implementação pedida na di
      System.out.println("O'Reilly: " + oreilly.getNumPubs());
     }
   }
-``` 
+
