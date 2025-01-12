@@ -1,4 +1,4 @@
-# Exercicio 9
+# Exercício 9
 
 Trabalho que implementa o *exercício 9* da segunda implementação pedida na disciplina **Paradigmas de Programação**,
 que gerencia publicações (livros e revistas) associadas as suas respectivas editoras.
