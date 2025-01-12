@@ -4,7 +4,7 @@ public abstract class Publicacao {
     String edicao;
     Editora editora;
 
-    public Publicacao(String nome, String assunto, String edicao, Editora editora){
+    public Publicacao(String nome, String assunto, String edicao, Editora editora) {
         this.nome = nome;
         this.assunto = assunto;
         this.edicao = edicao;
@@ -12,7 +12,7 @@ public abstract class Publicacao {
         editora.addPub(this);
     }
 
-    public void getPubli(){
+    public void getPubli() {
         System.out.println("Nome: "+ nome + "\nAssunto: "+ assunto +"\nEdicao: "+ edicao +"\nEditora: "+ editora);
     }
     
