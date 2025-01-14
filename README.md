@@ -99,15 +99,6 @@ public abstract class Publicacao {
 
     public abstract void getInfo();
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) 
-            return true;
-        if (obj == null || getClass() != obj.getClass()) 
-            return false;
-        Publicacao dois = (Publicacao) obj;
-        return nome.equals(dois.nome) && edicao.equals(dois.edicao) && editora.equals(dois.editora);
-    } 
 }
 ```
 - Definindo Publicação como abstrato, pois Livro e Revista herdarão seus métodos...
