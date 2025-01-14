@@ -34,7 +34,8 @@ public class Editora {
     }
 
     public void addPub(Publicacao publi) {
-        publis.put(publi.getNome(), publi);
+        String chaveUnica = publi.getNome() + "_" + publi.getEdicao();
+        publis.put(chaveUnica, publi);
     }
 
     // Método para salvar editoras e publicações
