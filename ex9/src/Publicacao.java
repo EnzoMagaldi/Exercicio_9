@@ -33,14 +33,5 @@ public abstract class Publicacao {
     }
 
     public abstract void getInfo();
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) 
-            return true;
-        if (obj == null || getClass() != obj.getClass()) 
-            return false;
-        Publicacao that = (Publicacao) obj;
-        return nome.equals(that.nome) && edicao.equals(that.edicao) && editora.equals(that.editora);
-    } 
+ 
 }
