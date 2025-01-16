@@ -1,8 +1,8 @@
 public abstract class Publicacao {
-    String nome;
-    String assunto;
-    String edicao;
-    Editora editora;
+    private String nome;
+    private String assunto;
+    private String edicao;
+    private Editora editora;
 
     public Publicacao(String nome, String assunto, String edicao, Editora editora) {
         this.nome = nome;
